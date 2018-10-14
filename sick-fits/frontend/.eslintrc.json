@@ -1,0 +1,54 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "settings": {
+        "react": {
+            "version": "16.5.2"
+        }        
+    },    
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single",
+            { 
+                "allowTemplateLiterals": true 
+            }
+        ],
+        "semi": [
+            "error", 
+             "always"
+        ],
+
+        "no-console": "off",
+        "no-unused-vars": "warn",
+        "no-restricted-globals": "off",
+        
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"        
+    }
+}
