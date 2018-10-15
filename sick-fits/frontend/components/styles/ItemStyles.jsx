@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Item = styled.div `
     background: white;
     border: 1px solid ${props => props.theme.offWhite};
-    box-shadow: ${props => props.theme.bs};
+    box-shadow: ${props => props.theme.boxShadow};
     position: relative;
     display: flex;
     flex-direction: column;
